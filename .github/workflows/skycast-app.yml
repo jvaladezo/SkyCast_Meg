@@ -18,7 +18,7 @@ jobs:
         runs-on: ubuntu-latest
     
         steps:
-            # 1. Descargar el código
+            # 0. Descargar el código
             - name: Descargar código
               uses: actions/checkout@v4
 
