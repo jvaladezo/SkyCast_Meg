@@ -69,5 +69,5 @@ jobs:
 
             - name: Show Pages URL
               run: |
-                REPO_NAME=${https://github.com/jvaladezo/SkyCast_Meg.git/}
+                REPO_NAME=${GITHUB_REPOSITORY#*/}
                 echo "::notice title=GitHub Pages URL::https://${GITHUB_REPOSITORY_OWNER}.github.io/${REPO_NAME}/"
