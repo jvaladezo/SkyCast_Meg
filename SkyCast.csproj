@@ -4,14 +4,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>6b4a1b1b-0454-4569-92d2-b0788d5744d8</UserSecretsId>
+    <UserSecretsId>230f2d9a-a269-493b-a107-d0b2b24ed4f9</UserSecretsId>
+    <StaticWebAssetBasePath>dotmetweathermega</StaticWebAssetBasePath>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.16" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.16" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.17" PrivateAssets="all" />
     <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="9.0.6" />
   </ItemGroup>
+
 
 
 </Project>
